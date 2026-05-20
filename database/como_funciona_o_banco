@@ -1,7 +1,0 @@
-O banco de dados do GreenLog foi criado para ajudar na organização das informações do sistema de forma simples e eficiente. A ideia principal foi separar os dados em categorias para facilitar o gerenciamento e deixar o sistema mais organizado no dia a dia.
-
-A estrutura funciona com três partes principais: usuários, veículos e viagens. Os usuários representam as pessoas que utilizam o sistema, contendo informações básicas como nome, contato e dados de acesso. Os veículos armazenam os dados da frota cadastrada, permitindo um melhor controle dos automóveis utilizados nas operações.
-
-A parte mais importante é a de viagens, onde ficam registradas todas as movimentações realizadas. Em cada viagem são salvas informações como origem, destino, distância percorrida, status e observações importantes. Cada viagem também fica associada a um usuário e a um veículo específico, permitindo identificar facilmente quem realizou a operação e qual veículo foi utilizado.
-
-Essa organização ajuda a manter os dados mais seguros, evita informações repetidas e facilita futuras melhorias no sistema, como criação de relatórios, histórico de viagens e acompanhamento das operações logísticas.
