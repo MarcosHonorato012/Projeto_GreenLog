@@ -1,0 +1,201 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .header {
+            background-color: #9ad699;
+            height: 75px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 50px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .header img {
+            height: 50px;
+        }
+
+        .menu {
+            display: flex;
+            align-items: center;
+        }
+
+        .link-externo {
+            text-decoration: none;
+            color: #2e452e;
+            font-weight: bold;
+            font-size: 14px;
+            margin-right: 20px;
+        }
+
+        .btn-menu {
+            background-color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            color: #3e5c3e;
+            cursor: pointer;
+            border: none;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        .main {
+            width: 90%;
+            max-width: 1100px;
+            margin: 30px auto;
+        }
+
+        .box {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            font-family: 'Oswald', sans-serif;
+            color: #3e5c3e;
+            margin-bottom: 25px;
+        }
+
+        .topo-tabela {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .btn-novo-veiculo {
+            background-color: #9ad699;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+            display: inline-block;
+        }
+
+        .tabela-frota {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .tabela-frota th {
+            text-align: left;
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-bottom: 2px solid #ddd;
+        }
+
+        .tabela-frota td {
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .status-ativo {
+            color: #27ae60;
+            font-weight: bold;
+        }
+
+        .acao-editar {
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .acao-excluir {
+            color: red;
+            margin-left: 10px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .campo {
+            margin-bottom: 15px;
+            display: inline-block;
+            vertical-align: top;
+            width: 31%;
+            margin-right: 2%;
+        }
+
+        .largura-total {
+            width: 98%;
+        }
+
+        .campo label {
+            display: block;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 15px;
+        }
+
+        textarea {
+            height: 100px;
+        }
+
+        .botoes-form {
+            margin-top: 20px;
+        }
+
+        .btn-salvar {
+            background-color: #3e5c3e;
+            color: white;
+            border: none;
+            padding: 14px 30px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .btn-cancelar {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #888;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .banner img {
+            margin-top: 40px;
+            border-radius: 12px;
+            width: 100%;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        #tela-form {
+            display: none;
+        }
+
+        #tela-form:target {
+            display: block;
+        }
+
+        #tela-lista:target {
+            display: block;
+        }
+
+        #tela-form:target ~ #tela-lista {
+            display: none;
+        }
