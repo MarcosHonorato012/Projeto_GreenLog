@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: #f4f4f4;
+
+    color: #333;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+
+    background-color: #9ad699;
+
+    height: 75px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 0 50px;
+}
+
+.header img{
+
+    height: 50px;
+}
+
+.menu{
+
+    display: flex;
+
+    align-items: center;
+}
+
+.link-externo{
+
+    text-decoration: none;
+
+    color: #2e452e;
+
+    font-weight: bold;
+}
+
+.main{
+
+    width: 90%;
+
+    max-width: 1100px;
+
+    margin: 30px auto;
+}
+
+.box{
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 12px;
+
+    margin-bottom: 30px;
+}
+
+h2{
+
+    color: #3e5c3e;
+
+    margin-bottom: 25px;
+}
+
+.campo{
+
+    margin-bottom: 15px;
+}
+
+.campo label{
+
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-weight: bold;
+}
+
+input,
+select,
+textarea{
+
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+}
+
+textarea{
+
+    height: 100px;
+}
+
+.btn-salvar{
+
+    background-color: #3e5c3e;
+
+    color: white;
+
+    border: none;
+
+    padding: 14px 30px;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    font-weight: bold;
+}
+
+.tabela-frota{
+
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+.tabela-frota th,
+.tabela-frota td{
+
+    padding: 15px;
+
+    border-bottom: 1px solid #ddd;
+}
